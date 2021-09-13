@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 
@@ -31,6 +32,35 @@ h1{
     color: lightskyblue;
 }
 .photo-description{
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 12px;
+    font-weight: 300;
+}
+section{
+    margin-bottom: 15px;
+}
+.list-item {
+    padding-left:20px;
+
+}
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+table{
+    
+   text-align: left;
+   
+}
+th, td{
+    width: 33%;
+}
+tbody{
+    
+    height: 50px;
+    background-color:#b1e5f2;
+    
+}
+/* classe usata per future righe pari */
+.even-row{
+    background-color: white;
 }
